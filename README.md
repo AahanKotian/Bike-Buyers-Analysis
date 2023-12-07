@@ -1,8 +1,6 @@
 # Bike-Buyers-Analysis
 An analysis of bike purchase rates of various demographics
 
-https://www.linkedin.com/feed/update/urn:li:activity:7067907514243108864/
-
 After analyzing an Excel file containing data on bike buyers across various factors, I have made several significant findings:
 
 1. Men, compared to the surveyed women, exhibit a slightly higher bike ownership rate.
