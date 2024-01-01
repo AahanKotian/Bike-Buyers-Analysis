@@ -1,0 +1,48 @@
+-Create Other Sheets
+
+Create 3 other sheets in xlsx file called Working Sheet, Dashboard and Pivot Table
+
+-Remove Duplicates
+
+Copy all the material from the first sheet and paste it into Working Sheet
+
+Click Advanced Filter in More Filters located within the Data tab after copying the material
+in Working Sheet. Then type "A1:M1027" in the textbox beside "-undefined-". Then click the Options 
+button and check No Duplications.
+
+-Find and replace cells in "Marital Status" and "Gender" columns
+
+Click on Column B and hit ctrl and h to bring up Find and Replace
+
+In Find and Replace, press the Entire cells and Match case button and change the Direction to Columns 
+
+Replace "M" with "Married" by typing the former in the Find field and latter in the Replace field
+
+Press Replace All
+
+Do the same with "S" and "Single", respectively also in Column B
+
+Also change "F" to "Female" and "M" to "Male" in Column C in the same fashion along with "Yes" to 1 and "No" to 0 in the last column
+
+-Click Income Column and press the "Format as Currency" button
+
+-Create an Age Brackets Column
+
+Click the Age Column and Click Insert Columns After
+
+Type "Age Brackets into the first cell
+
+Go down to the lowest row, 1001, and type =IF(L1001>54,"Old",IF(L1001>=31,"Middle Age",IF(L1001<31,"Adolescent", "Invalid")))
+
+After doing so, click cell M1001 and drag your cursor to cell M2 to apply the formula to every cell in Column M
+
+-Work on Pivot Table
+
+Click whole Working Sheet, go to the Insert Tab and click Pivot Table
+
+Click OK in Current Selection
+
+Arrange Gender into the Row Fields and Income into the Data Fields
+
+Click Income in Data Fields and change the Sum setting to Average. Also add Purchased Bikes to Data Fields and change Sum to Count
+
